@@ -7,8 +7,10 @@
         header { padding: 60px 0; border-bottom: 1px solid #eee; }
         h1 { font-size: 3rem; letter-spacing: 2px; text-transform: uppercase; margin: 0; }
         p { font-style: italic; color: #666; font-size: 1.2rem; }
-        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 300px; max-width: 1000px; margin: 60px auto; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 40px; max-width: 1000px; margin: 60px auto; }
         .card { background: white; padding: 20px; border: 1px solid #eee; text-align: left; }
+        .card a { color: #222; text-decoration: none; font-weight: bold; font-size: 1.4rem; }
+        .card a:hover { text-decoration: underline; }
     </style>
 </head>
 <body>
@@ -17,9 +19,10 @@
         <p>Handpicked travel stories, style guides, and itineraries.</p>
     </header>
     <main class="grid">
+        <!-- YOUR NEW PACKING GUIDE CARD ELEMENT LINKED BELOW -->
         <div class="card">
-            <h3>My First Voyage</h3>
-            <p>Adventure awaits... Welcome to my permanent digital home.</p>
+            <a href="packing-guide.html">My Travel Packing Guide →</a>
+            <p>Type your travel stories, packing lists, and style logs right here...</p>
         </div>
     </main>
 </body>
